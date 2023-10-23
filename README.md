@@ -1,31 +1,43 @@
-# Team Name's FIRE Summit Presentation
-
-*Team Members' Names*
+Team Name’s FIRE Summit Presentation
+================
+Team Members
 
 ## Research Question
 
-Write research question here
+Write research question here.
 
-## Background
-
-Why is the research question important to society?
-
-How will this research build on existing findings?
+(Optional) Insert an image if it helps motivate the research question.
 
 ## Data Wrangling
 
-Explain how you obtain data of the outcome, treatment, and control variables. Show a map if you have made one.
+**Outcome variable**
 
-You can display your codes without making it run by adding **#\| eval: false** at the top of the chunk.
+Write description, data source, and wrangling methodology. Show a map if
+you have made one.
 
-You can also suppress warnings by adding **#\| warning: false**.
+If you have loops, do not run the entire thing. Instead, run one sample
+loop or just display your codes without making it run by adding **\#\|
+eval: false** at the top of the chunk.
 
-```{r}
-#| eval: false
-#| warning: false
+You can also suppress warnings by adding **\#\| warning: false**.
 
+``` r
+library("tidyverse")
+library("terra")
+library("simplermarkdown")
 ```
+
+**Treatment variable**
+
+Write description, data source, and wrangling methodology. Show a map if
+you have one.
+
+**Control variables**
+
+Write description, data source, and wrangling methodology. Show a map if
+you have one.
 
 ## Preliminary Results
 
-If your team has created a data frame, please summarize the data in the form of a table and a graph in this section.
+Display a figure showing how the treatment variable impacted the outcome
+variable.
