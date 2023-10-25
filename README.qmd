@@ -9,13 +9,13 @@ editor: visual
 
 What are the marginal emissions for driving an electric car?
 
-(Optional) Insert an image if it helps motivate the research question.
+[![](images/eu-lifetime-co2-infographic.jpg){fig-alt="Emissions from Cars, Gasoline vs Electric Vehicles" width="420"}](https://web.archive.org/web/20201130165117/https://www.europarl.europa.eu/news/en/headlines/priorities/climate-change/20190313STO31218/co2-emissions-from-cars-facts-and-figures-infographics)
 
 ## Data Wrangling
 
 **Outcome variable**
 
-Our outcome variable is
+Our outcome variable is 
 
 ```{r}
 #| warning: false

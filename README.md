@@ -1,25 +1,21 @@
-Team Name’s FIRE Summit Presentation
-================
-Team Members
+# Electric Grid’s FIRE Summit Presentation
+Chirag Jain, Vai Srivastava
 
 ## Research Question
 
-Write research question here.
+What are the marginal emissions for driving an electric car?
 
-(Optional) Insert an image if it helps motivate the research question.
+<div fig-alt="Emissions from Cars, Gasoline vs Electric Vehicles">
+
+[<img src="images/eu-lifetime-co2-infographic.jpg" width="420" />](https://web.archive.org/web/20201130165117/https://www.europarl.europa.eu/news/en/headlines/priorities/climate-change/20190313STO31218/co2-emissions-from-cars-facts-and-figures-infographics)
+
+</div>
 
 ## Data Wrangling
 
 **Outcome variable**
 
-Write description, data source, and wrangling methodology. Show a map if
-you have made one.
-
-If you have loops, do not run the entire thing. Instead, run one sample
-loop or just display your codes without making it run by adding **\#\|
-eval: false** at the top of the chunk.
-
-You can also suppress warnings by adding **\#\| warning: false**.
+Our outcome variable is
 
 ``` r
 library("tidyverse")
@@ -29,8 +25,7 @@ library("simplermarkdown")
 
 **Treatment variable**
 
-Write description, data source, and wrangling methodology. Show a map if
-you have one.
+Demand at BA level
 
 **Control variables**
 
