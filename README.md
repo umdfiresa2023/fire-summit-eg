@@ -195,4 +195,17 @@ summary(df2_example)
 ## Preliminary Results
 
 Display a figure showing how the treatment variable impacted the outcome
-variable.
+variable.<img src="images/Rplot_EV_Grid.png" width="380"
+alt="Graph of Demand vs Emissions Level During Different Time Periods" />
+
+This graph demonstrates the impact of Demand (MWh) on CO2 emissions
+(Kilo tons)
+
+during the two halves of each day from 2020-2022 in California.
+
+Analysis: Ultimately, the graph demonstrates that as the demand
+increases, the CO2 emissions increase as well. The time period from
+12-24 experiences more CO2 emissions and 0-12 experiences relatively
+less emissions as demonstrated by the slope of each line. The time
+period from 12-24 hours has more emissions per MegaWatt hour than 0-12
+hours primarily because that is when the EVs are charged.
