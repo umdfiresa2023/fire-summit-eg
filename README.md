@@ -199,9 +199,7 @@ variable.<img src="images/Rplot_EV_Grid.png" width="380"
 alt="Graph of Demand vs Emissions Level During Different Time Periods" />
 
 This graph demonstrates the impact of Demand (MWh) on CO2 emissions
-(Kilo tons)
-
-during the two halves of each day from 2020-2022 in California.
+(Kilo tons) during the two halves of each day from 2020-2022 in California.
 
 Analysis: Ultimately, the graph demonstrates that as the demand
 increases, the CO2 emissions increase as well. The time period from
