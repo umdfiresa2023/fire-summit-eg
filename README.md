@@ -194,16 +194,11 @@ summary(df2_example)
 
 ## Preliminary Results
 
-Display a figure showing how the treatment variable impacted the outcome
-variable.<img src="images/Rplot_EV_Grid.png" width="380"
-alt="Graph of Demand vs Emissions Level During Different Time Periods" />
+<img src="images/emissions_by_hr_month_nerc_plot.png" width="580"
+alt="Graph of Emissions by Demand, grouped by NERC Region" />
 
 This graph demonstrates the impact of Demand (MWh) on CO2 emissions
-(Kilo tons) during the two halves of each day from 2020-2022 in California.
+(Short Tons) for each NERC Region.
 
 Analysis: Ultimately, the graph demonstrates that as the demand
-increases, the CO2 emissions increase as well. The time period from
-12-24 experiences more CO2 emissions and 0-12 experiences relatively
-less emissions as demonstrated by the slope of each line. The time
-period from 12-24 hours has more emissions per MegaWatt hour than 0-12
-hours primarily because that is when the EVs are charged.
+increases, the CO2 emissions increase as well. Unfortunately, our regression map gives extremely confusing results, but can be viewed [here](images/co2_emissions_state_plot.png).
